@@ -1,0 +1,121 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7006577307483314036
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7006577307483314038}
+  - component: {fileID: 7006577307483314037}
+  m_Layer: 0
+  m_Name: AdsManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7006577307483314038
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7006577307483314036}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7006577307483314037
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7006577307483314036}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 568001d13b14f2a4b81cc8c64d774cfb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  androidSetting:
+    IsUseApplovin: 1
+    SDK_KEY_APPLOVIN: 
+    BANNER_ID_APPLOVIN: 
+    FULL_REWARD_ID_APPLOVIN: 
+    FULL_ID_APPLOVIN: 
+    REWARD_ID_APPLOVIN: 
+    IsUseUnity: 1
+    IsUseUnityBanner: 1
+    APP_ID_UNITY: 4203049
+    BANNER_ID_UNITY: Banner_Android
+    FULL_ID_UNITY: Interstitial_Android
+    REWARD_ID_UNITY: Rewarded_Android
+    IsShowBanner: 1
+    IsBannerInStart: 1
+    BannerType: 2
+    MaxClickBanner: 3
+    IsRefocusShowFull: 1
+    TimeBetweenRefocusShow: 5
+    TimeBetweenShowFull: 20
+    MaxClickFull: 3
+    MaxClickVideo: 3
+    IsUseWaterFall: 0
+    WaterFallAds: 0000000001000000
+    FullNumShowAds:
+    - type: 0
+      numShow: 2
+    - type: 1
+      numShow: 1
+    RewardNumShowAds:
+    - type: 0
+      numShow: 2
+    - type: 1
+      numShow: 1
+    IsRefocusShowAds: 1
+    timeBetweenRefocusShow: 20
+  iosSetting:
+    IsUseApplovin: 1
+    SDK_KEY_APPLOVIN: 
+    BANNER_ID_APPLOVIN: 
+    FULL_REWARD_ID_APPLOVIN: 
+    FULL_ID_APPLOVIN: 
+    REWARD_ID_APPLOVIN: 
+    IsUseUnity: 1
+    IsUseUnityBanner: 1
+    APP_ID_UNITY: 4203048
+    BANNER_ID_UNITY: Banner_iOS
+    FULL_ID_UNITY: Interstitial_iOS
+    REWARD_ID_UNITY: Rewarded_iOS
+    IsShowBanner: 1
+    IsBannerInStart: 1
+    BannerType: 2
+    MaxClickBanner: 3
+    IsRefocusShowFull: 1
+    TimeBetweenRefocusShow: 5
+    TimeBetweenShowFull: 20
+    MaxClickFull: 3
+    MaxClickVideo: 3
+    IsUseWaterFall: 0
+    WaterFallAds: 0000000001000000
+    FullNumShowAds:
+    - type: 0
+      numShow: 2
+    - type: 1
+      numShow: 1
+    RewardNumShowAds:
+    - type: 0
+      numShow: 2
+    - type: 1
+      numShow: 1
+    IsRefocusShowAds: 1
+    timeBetweenRefocusShow: 20
+  isUseFireBase: 1
+  androidFirebaseKey: test_android
+  iosFirebaseKey: test_ios
+  isAutoLoadFull: 1
